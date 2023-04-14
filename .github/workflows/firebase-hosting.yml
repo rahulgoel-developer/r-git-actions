@@ -46,4 +46,4 @@ jobs:
         with:
           args: deploy --only hosting
         env:
-          FIREBASE_SERVICE_ACCOUNT_R_GIT_ACTIONS: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_R_GIT_ACTIONS }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
